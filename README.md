@@ -113,6 +113,7 @@ JNIEXPORT jstring JNICALL Java_com_ndktest_MainActivity_getStringFromNative
 #endif
 ```
 * 在<code>jni</code>中新建一个<code>c</code>文件，将名字命名为：<code>main.c</code>,输入以下内容:
+
 ```c
 //
 // Created by Administrator on 2015/8/18.
