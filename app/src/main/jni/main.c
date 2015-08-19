@@ -4,7 +4,7 @@
 
 #include "com_ndktest_MainActivity.h"
 /*
- * Class:     com_jnimobile_www_myjnidemo_MainActivity
+ * Class:     com_ndktest_MainActivity
  * Method:    getStringFromNative
  * Signature: ()Ljava/lang/String;
  */
