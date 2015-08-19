@@ -10,7 +10,7 @@
 
 ## 简介
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Android的NDK开发入门指南.首先说为什么写Android项目要用到NDK开发，这里简单介绍一下其中有点：使用Android NDK主要就是为了提升应用的性能,对于那些对性能要求比较高的app 而言可以使用Android NDK,同时NDK绕过了Android的虚拟机的限制,可以使用一些更加底层的方法或是权限,但是使用Android NDK无论设计的多好,都会增加app的复杂性。</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Android的NDK开发入门指南.首先说为什么写Android项目要用到NDK开发，这里简单介绍一下其中优点：使用Android NDK主要就是为了提升应用的性能,对于那些对性能要求比较高的app 而言可以使用Android NDK,同时NDK绕过了Android的虚拟机的限制,可以使用一些更加底层的方法或是权限,但是使用Android NDK无论设计的多好,都会增加app的复杂性。</p>
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;但是这里我们只是单纯的说一下怎么通过Android进行NDK编程，而不去探讨更深层次的内容，创建一个Android NDK项目一般遵循一下步骤：</p>
 
 <ol>
