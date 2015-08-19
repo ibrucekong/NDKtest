@@ -134,19 +134,25 @@ JNIEXPORT jstring JNICALL Java_com_ndktest_MainActivity_getStringFromNative
 
 * 在app目录下的<code>build.gradle</code>中设置库文件名（生成的<code>so</code>文件名--但是我在项目中并未看到有<code>so</code>文件生成）;
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;找到<code>defaultConfig</code>项，添加以下内容：</p>
-<pre><code>ndk{  
+
+```
+ndk{  
         moduleName "MyJni"  //设置库(so)文件名称  
-} </code></pre>
+} 
+```
 
 * 加载<code>so</code>文件:
-<pre><code>static {  
+
+```
+static {  
     System.loadLibrary("MyJni");  
-}</code></pre>
+}
+```
 
 * 配置布局文件和入口文件
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在此贴出布局的完整代码：</p>
 
-```
+```xml
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
@@ -167,7 +173,7 @@ JNIEXPORT jstring JNICALL Java_com_ndktest_MainActivity_getStringFromNative
 ```
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MainActivity的完整代码:</p>
 
-```
+```java
 package com.ndktest;
 
 import android.app.Activity;
