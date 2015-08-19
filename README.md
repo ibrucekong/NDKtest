@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### 转载自:[<http://blog.csdn.net/rznice/article/details/42295215>](<http://blog.csdn.net/rznice/article/details/42295215>)
 # NDKtest
 #### Platform : Android Studio 1.4 preview2
@@ -221,6 +220,3 @@ public class MainActivity extends Activity {
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;编译运行可以看到从native方法传过来的值：</p>
 
 ![Login](./mdimage/ndktest.png)
-=======
-#NDKtest
->>>>>>> remotes/osc-origin/master
