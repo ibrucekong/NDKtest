@@ -112,12 +112,13 @@ JNIEXPORT jstring JNICALL Java_com_ndktest_MainActivity_getStringFromNative
 #endif
 #endif
 ```
-
 * 在<code>jni</code>中新建一个<code>c</code>文件，将名字命名为：<code>main.c</code>,输入以下内容:
 
-```c 
-/*Created by Administrator on 2015/8/18.*/
- 
+```c
+//
+// Created by Administrator on 2015/8/18.
+//
+
 #include "com_ndktest_MainActivity.h"
 /*
  * Class:     com_ndktest_MainActivity
@@ -129,7 +130,6 @@ JNIEXPORT jstring JNICALL Java_com_ndktest_MainActivity_getStringFromNative
     return (*env)->NewStringUTF(env,"I'm comes from to Native Function!");
 }
 ```
-
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如果编译出错，请在jni文件夹中新建一个空的<code>.c</code>文件，比如<code>utils.c</code>。在此我没有碰到错误，所以没有添加空文件</p>
 
 * 在app目录下的<code>build.gradle</code>中设置库文件名（生成的<code>so</code>文件名--但是我在项目中并未看到有<code>so</code>文件生成）;
